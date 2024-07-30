@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f0f0f0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="-9dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/fondo"
+        android:gravity="center"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textSize="27sp"
+        android:textColor="#333"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/inputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:hint="Nombre:"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/inputEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:hint="cell:"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/inputEditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:hint="Domicilio:"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/showDialogButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Diálogo"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="250dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/sampleImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="?attr/actionModePasteDrawable"
+        android:layout_below="@id/showDialogButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
